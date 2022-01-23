@@ -58,11 +58,15 @@ const sendFailingButton = document.getElementById('sendFailingButton');
 const failingContractStatus = document.getElementById('failingContractStatus');
 
 // Collectibles Section
-const deployCollectiblesButton = document.getElementById('deployCollectiblesButton');
+const deployCollectiblesButton = document.getElementById(
+  'deployCollectiblesButton',
+);
 const mintButton = document.getElementById('mintButton');
 const mintAmountInput = document.getElementById('mintAmountInput');
 const collectiblesStatus = document.getElementById('collectiblesStatus');
-const listCollectiblesButton = document.getElementById('listCollectiblesButton');
+const listCollectiblesButton = document.getElementById(
+  'listCollectiblesButton',
+);
 
 // Send Eth Section
 const sendButton = document.getElementById('sendButton');
