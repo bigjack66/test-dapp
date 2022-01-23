@@ -58,12 +58,11 @@ const sendFailingButton = document.getElementById('sendFailingButton');
 const failingContractStatus = document.getElementById('failingContractStatus');
 
 // Collectibles Section
-const deployCollectiblesButton = document.getElementById(
-  'deployCollectiblesButton',
-);
+const deployCollectiblesButton = document.getElementById('deployCollectiblesButton',);
 const mintButton = document.getElementById('mintButton');
 const mintAmountInput = document.getElementById('mintAmountInput');
 const collectiblesStatus = document.getElementById('collectiblesStatus');
+const listCollectiblesButton = document.getElementById('listCollectiblesButton',);
 
 // Send Eth Section
 const sendButton = document.getElementById('sendButton');
@@ -185,6 +184,7 @@ const initialize = async () => {
     depositButton,
     withdrawButton,
     deployCollectiblesButton,
+    listCollectiblesButton,
     mintButton,
     mintAmountInput,
     deployFailingButton,
@@ -248,6 +248,7 @@ const initialize = async () => {
     } else {
       deployButton.disabled = false;
       deployCollectiblesButton.disabled = false;
+      listCollectiblesButton.disabled = false;
       sendButton.disabled = false;
       deployFailingButton.disabled = false;
       createToken.disabled = false;
@@ -451,6 +452,10 @@ const initialize = async () => {
       };
 
       console.log(contract);
+    };
+
+    listCollectiblesButton.onclick = async () => {
+      collectiblesStatus.innerHTML = 'List NFT';
     };
 
     /**
