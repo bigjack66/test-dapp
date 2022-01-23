@@ -68,8 +68,3 @@ header {
 .warning-invisible {
   display: none;
 }
-
-#imageNFTList img {
-  width: 20%;
-  height: 20%;
-}
