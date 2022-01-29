@@ -24,7 +24,7 @@ header {
 
 #logo-container {
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 #logo-text {
