@@ -28,109 +28,109 @@
           <!-- <img id="mm-logo" src="cwstream-logo.jpeg" width="200" height="200"/> -->
         </div>
       </header>
-      <section>
-        <div class="card">
-          <div class="card-body">
-            <h3 class="card-title">
-              Status
-            </h3>
-            <!-- <div id="warning" class="row justify-content-center error-div">
-              <div class="error-message justify-content-center col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
-                <img
-                  src="alert-red.svg"
-                  alt=""
-                  class="error-message-icon
-                  "
-                />
-                <div class="error-message-text">You are on the Ethereum Mainnet.</div>
+      <div class="row">
+        <section>
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">
+                Status
+              </h3>
+              <div id="warning" class="row justify-content-center error-div">
+                <div class="error-message justify-content-center col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
+                  <img
+                    src="alert-red.svg"
+                    alt=""
+                    class="error-message-icon
+                    "
+                  />
+                  <div class="error-message-text">You are on the Ethereum Mainnet.</div>
+                </div>
               </div>
-            </div> -->
-            <div class="row">
-              <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
-                <p class="info-text alert alert-primary">
-                  Network: <span id="network"></span>
-                </p>
-                <p class="info-text alert alert-success">
-                  Accounts: <span id="accounts"></span>
-                </p>
-                
-              <!-- </div>
+              <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
+                  <p class="info-text alert alert-primary">
+                    Network: <span id="network"></span>
+                  </p>
+                  <p class="info-text alert alert-success">
+                    Accounts: <span id="accounts"></span>
+                  </p>
+                  
+                <!-- </div>
 
-              <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12"> -->
-                <p class="info-text alert alert-secondary">
-                  ChainId: <span id="chainId"></span>
-                </p>
-              </div>
-
-              
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="row d-flex justify-content-center">
-          <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">
-                  Basic Actions
-                </h4>
-
-                <button
-                  class="btn btn-primary btn-lg btn-block mb-3"
-                  id="connectButton"
-                  disabled
-                >
-                  Connect
-                </button>
-
-                <button
-                  class="btn btn-primary btn-lg btn-block mb-3"
-                  id="getAccounts"
-                >
-                  eth_accounts
-                </button>
-
-                <p class="info-text alert alert-secondary">
-                  eth_accounts result: <span id="getAccountsResult"></span>
-                </p>
+                <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12"> -->
+                  <p class="info-text alert alert-secondary">
+                    ChainId: <span id="chainId"></span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section>
-        <div class="row d-flex justify-content-center">
-          <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">
-                  Permissions Actions
-                </h4>
+        <section>
+          <div class="row d-flex justify-content-center">
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    Basic Actions
+                  </h4>
 
-                <button
-                  class="btn btn-primary btn-lg btn-block mb-3"
-                  id="requestPermissions"
-                >
-                  Request Permissions
-                </button>
+                  <button
+                    class="btn btn-primary btn-lg btn-block mb-3"
+                    id="connectButton"
+                    disabled
+                  >
+                    Connect
+                  </button>
 
-                <button
-                  class="btn btn-primary btn-lg btn-block mb-3"
-                  id="getPermissions"
-                >
-                  Get Permissions
-                </button>
+                  <button
+                    class="btn btn-primary btn-lg btn-block mb-3"
+                    id="getAccounts"
+                  >
+                    eth_accounts
+                  </button>
 
-                <p class="info-text alert alert-secondary">
-                  Permissions result: <span id="permissionsResult"></span>
-                </p>
+                  <p class="info-text alert alert-secondary">
+                    eth_accounts result: <span id="getAccountsResult"></span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
+
+        <section>
+          <div class="row d-flex justify-content-center">
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    Permissions Actions
+                  </h4>
+
+                  <button
+                    class="btn btn-primary btn-lg btn-block mb-3"
+                    id="requestPermissions"
+                  >
+                    Request Permissions
+                  </button>
+
+                  <button
+                    class="btn btn-primary btn-lg btn-block mb-3"
+                    id="getPermissions"
+                  >
+                    Get Permissions
+                  </button>
+
+                  <p class="info-text alert alert-secondary">
+                    Permissions result: <span id="permissionsResult"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
       </section>
 
       <section>
