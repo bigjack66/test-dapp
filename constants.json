@@ -699,5 +699,13 @@
   "failingContractBytecode": "0x6080604052348015600f57600080fd5b50608b8061001e6000396000f3fe6080604052610fff3411600e57fe5b3373ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f193505050501580156053573d6000803e3d6000fd5b5000fea265627a7a72315820631b0dbb6b871cdbfdec2773af15ebfb8e52c794cf836fe27ec21f1aed17180f64736f6c634300050c0032",
   "CWStreamNFT": "0xbfe97655e3152f670cdfeb119e0a590b063257b4",
   "NFT1": "http://127.0.0.1:8080/ipfs/QmcR1xV9bE8f2V4HMTU6c7WmzubdiooZZ9eRReEg5WxMso?filename=1",
-  "NFT2": "http://127.0.0.1:8080/ipfs/QmQNtwjt5QLDcgBtVPwbFuxcrA9WdbFNoHKiNwuqPZDz2f?filename=2"
+  "NFT2": "http://127.0.0.1:8080/ipfs/QmQNtwjt5QLDcgBtVPwbFuxcrA9WdbFNoHKiNwuqPZDz2f?filename=2",
+  "NFT3": "http://127.0.0.1:8080/ipfs/QmRRzWMdh7RBJCVwK4qt7AFN9WChq6ES4Mz2uvUKiGJzVt?filename=3",
+  "NFT4": "http://127.0.0.1:8080/ipfs/QmUv6CijhVF91y12L81sh6SHNi45vGqkuTiHKgcfcLdC6y?filename=4",
+  "NFT5": "http://127.0.0.1:8080/ipfs/QmakmdNdvkhqweYTyDwABZwmFSLXopCuRuyvFZzouoAHVS?filename=5",
+  "NFT6": "http://127.0.0.1:8080/ipfs/QmbwjZkz6YoHvkbKRAGK2KpceFYhg656DZKqi3A3vHTpCy?filename=6",
+  "NFT7": "http://127.0.0.1:8080/ipfs/QmSU1zKkwxFmNkPsmXjVn1UB474ha66zjjjREWL2PAmUyD?filename=7",
+  "NFT8": "http://127.0.0.1:8080/ipfs/QmZhAZhzpajkCy1fyRYMQ2YHAKrxRVPVWoDbHsgdjPNEeP?filename=8",
+  "NFT9": "http://127.0.0.1:8080/ipfs/QmXWr9UAC1aGY4fDFouYiPVysrqNn528JpY7XJhxw5fss1?filename=9",
+  "NFT10": "http://127.0.0.1:8080/ipfs/QmSBwwNV6Nm8B8QFFUtzdMCobsBLHrYJy22EiZY1R1dxbA?filename=10"
 }
